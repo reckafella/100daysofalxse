@@ -36,3 +36,25 @@
     - **`Caution`**: Ensure that you Google a specific question, error message, or a specific concept.
     - Beware that most solutions provided on the Internet are wrong or incomplete or both.
         - If it does not make sense, ignore it.
+6. Ask for help from peers
+7. Ask for help from technical mentors (this applies to students only)
+
+## **Additional concepts**
+
+### **Commands to work on Bash command line**
+
+1. `awk` - used for text processing and manipulation
+    - allows users to performed advanced operations on files, such as:
+        - filtering
+        - transforming, and
+        - extracting data based on specific patterns
+        - Example: to print the 2nd and 4th columns from comma-separated data,
+            - `awk -F, '{prin $2, $4}' data.txt`, where `data.txt` is the file argument
+
+2. `basename` - used to strip the directory option from a file path, leaving only the file name.
+    - Example: let's say you have a file path `/home/user/Documents/juicy.png`,
+        - Running `basename /home/user/Documents/juicy.png` will output `juicy.png`
+
+3. `bg` - used to resume a suspended job or process in the background.
+    - jobs are suspended using `Ctrl+Z`
+    - typing `bg` resumes the suspended job.
